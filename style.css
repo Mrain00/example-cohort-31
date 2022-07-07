@@ -1,0 +1,101 @@
+/* IMPORTAR FUENTE */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap");
+
+/* ESTILO GLOBAL (OSEA LO QUE YO PONGA ACA EN "*" VA A AFECTAR A TODO ELEMENTO */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+/* BODY */
+
+
+body {
+  min-height: 100vh;
+  width: 100%;
+  font-family: "Poppins";
+}
+h2{
+    color: #363636;
+}
+p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: small;
+    padding: 1rem .9rem;
+}
+
+
+/* HEADER */
+
+
+header {
+  min-height: 10rem;
+  width: 100%;  
+  border-bottom: #363636 1px solid;
+  padding-bottom: 1rem;
+}
+.container-header {
+  width: 25%;
+  display: inline-block;
+}
+.text-header {
+  color: #363636;
+  display: inline;
+  width: 25%;
+  position: relative;
+  top: -4rem;
+}
+.logo {
+  margin: 0;
+  height: 10rem;
+  display: block;
+}
+nav {
+  display: inline;
+}
+nav a {
+  margin-left:.5rem;
+}
+
+header a {
+  background-color: #363636;
+  padding: 0.45rem 0.5rem;
+  border-radius: 1rem;
+  color: #fff;
+  text-decoration: none;
+  font-size: 0.9rem;
+  display: inline-block;
+}
+
+
+/* MAIN */
+
+
+main{
+    min-height: 1rem;
+}
+.main-title{
+    text-align: center;
+    margin-top: 1rem;
+}
+.main-p{
+    text-align: center;
+}
+.container{
+    width: 20rem;
+    border: 1px solid #3636361f;
+    border-radius: .8rem;
+    margin: 1rem;
+    display: inline-block;
+}
+.container h2{
+    text-align: center;
+}
+.container img{
+    width: 100%;
+    border-radius:.8rem .8rem 0 0 ;
+}
